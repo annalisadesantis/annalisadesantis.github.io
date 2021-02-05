@@ -111,7 +111,7 @@ header{
     margin-top: 80px;
 }
 
-.box-info {
+.box-name {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -119,26 +119,47 @@ header{
     margin-top: 50px;
 }
 
-.box-info h1{
+.name{
+    margin-bottom: 20px;
+}
+
+.box-name h1{
     color: #ffffff;
-    font-size: 35px;
-
+    font-size: 33px;
+    padding-left: 25px;
 }
 
-.box-info p{
-
+.box-name p{
+    color: #ff69b4;
+    font-weight: bold;
+    font-size: 25px;
 }
-
-
-
-
 
 
 /* SECTION ABOUT */
 
 #about{
-    background-color: blue;
-    height: 800px;
+    background-color: #ff92a9;
+    padding: 80px 20px;
+}
+
+.box-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.box-info span{
+    color: #ffffff;
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+.box-info p{
+    color: #ff69b4;
+    font-weight: bold;
+    font-size: 25px
 }
 
 /* SECTION PROJECTS */
@@ -148,12 +169,45 @@ header{
     height: 800px;
 }
 
-#projects{
-    background-color: pink;
-    height: 800px;
-}
 
 /* FOOTER */
+
+footer{
+    background-color: orange;
+}
+
+.box-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.box-contact h3{
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 25px;
+    padding: 10px;
+}
+
+.box-contact i{
+    color: #ffffff;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.box-contact p{
+    color: #ff69b4;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0;
+}
+
+.box-contact a{
+    color: #ffffff;
+    font-size: 15px;
+}
+
 
 @media (min-width: 768px){
 

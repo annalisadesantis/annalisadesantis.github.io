@@ -17,6 +17,7 @@ header{
     background: #ffffff;
     border-bottom: 1px solid #efefef;
     position: relative;
+    position: fixed;
 }
 
 .header-box{
@@ -54,6 +55,7 @@ header{
     min-width: 100vw;
     min-height: 100vh;
     background: #000000;
+    display: none;
 }
 
 .hamburger-menu ul {
@@ -87,6 +89,25 @@ header{
 .hamburger-menu i{
     color: #ffffff;
     font-size: 25px;
+}
+
+
+
+/* SECTION HOME */
+
+#home{
+    background-color: red;
+    height: 800px;
+}
+
+#about{
+    background-color: blue;
+    height: 800px;
+}
+
+#projects{
+    background-color: pink;
+    height: 800px;
 }
 
 @media (min-width: 768px){

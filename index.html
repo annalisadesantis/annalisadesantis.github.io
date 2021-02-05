@@ -8,6 +8,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Favicon -->
         <link rel="icon" href="img/logo.png" type="image/png"/>
+        <!-- CSS -->
+        <link rel="stylesheet" href="style.css">
         <!-- Font awesome icon -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
         <!-- Google Fonts -->
@@ -15,80 +17,85 @@
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
         <!-- Bootstrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-        <!-- CSS -->
-        <link rel="stylesheet" href="style.css">
-        <!-- VUE -->
-        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+        <!-- JQUERY -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     <body>
-        <div id="root">
-            <!-- HEADER -->
-            <header>
-                <div class="header-box" v-if="headerBox">
-                    <div class="header-left">
-                        <h2 class="text-uppercase">
-                            Portfolio
-                        </h2>
-                    </div>
-                    <div class="header-right">
-                        <div class="menu">
-                            <ul>
-                                <li>
-                                    <a class="text-uppercase" href="#">Home</a>
-                                </li>
-                                <li>
-                                    <a class="text-uppercase" href="#about">About me</a>
-                                </li>
-                                <li>
-                                    <a class="text-uppercase" href="#projects">My Projects</a>
-                                </li>
-                                <li>
-                                    <a class="text-uppercase" href="#contact">Contact me</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <a href="#" @click="togglemenu()" class="toggle">
-                            <i class="fas fa-bars"></i>
-                        </a>
-                    </div>
+        <!-- HEADER -->
+        <header>
+            <div class="header-box">
+                <div class="header-left">
+                    <h2 class="text-uppercase">
+                        Portfolio
+                    </h2>
                 </div>
-                <div class="hamburger-menu" v-if="active">
-                    <ul>
-                        <li>
-                            <a class="text-uppercase" href="#">Home</a>
-                        </li>
-                        <li>
-                            <a class="text-uppercase" href="#about">About me</a>
-                        </li>
-                        <li>
-                            <a class="text-uppercase" href="#projects">My Projects</a>
-                        </li>
-                        <li>
-                            <a class="text-uppercase" href="#contact">Contact me</a>
-                        </li>
-                    </ul>
-                    <a href="#" class="close" @click="togglemenu()">
-                        <i class="fas fa-times"></i>
+                <div class="header-right">
+                    <div class="menu">
+                        <ul>
+                            <li>
+                                <a class="text-uppercase" href="#home">Home</a>
+                            </li>
+                            <li>
+                                <a class="text-uppercase" href="#about">About me</a>
+                            </li>
+                            <li>
+                                <a class="text-uppercase" href="#projects">My Projects</a>
+                            </li>
+                            <li>
+                                <a class="text-uppercase" href="#contact">Contact me</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#" class="toggle">
+                        <i class="fas fa-bars"></i>
                     </a>
                 </div>
-            </header>
-            <main>
+            </div>
+            <div class="hamburger-menu">
+                <ul>
+                    <li>
+                        <a class="text-uppercase link" href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a class="text-uppercase link" href="#about">About me</a>
+                    </li>
+                    <li>
+                        <a class="text-uppercase link" href="#projects">My Projects</a>
+                    </li>
+                    <li>
+                        <a class="text-uppercase link" href="#contact">Contact me</a>
+                    </li>
+                </ul>
+                <a href="#" class="close">
+                    <i class="fas fa-times"></i>
+                </a>
+            </div>
+        </header>
+        <main>
+            <!-- HOME -->
+            <section id="home">
+                
+            </section>
+            <section id="about">
 
-            </main>
-            <footer>
-                <!-- <div class="ciao">
-                    <p>
-                        &lt;name&gt;
-                    </p>
-                    <h1>
-                        Annalisa de Santis
-                    </h1>
-                    <p>
-                        &lt;/name&gt;
-                    </p>
-                </div> -->
-            </footer>
-        </div>
+            </section>
+            <section id="projects">
+
+            </section>
+        </main>
+        <footer>
+            <!-- <div class="ciao">
+                <p>
+                    &lt;name&gt;
+                </p>
+                <h1>
+                    Annalisa de Santis
+                </h1>
+                <p>
+                    &lt;/name&gt;
+                </p>
+            </div> -->
+        </footer>
         <!-- JAVASCRIPT -->
         <script src="main.js" charset="utf-8"></script>
     </body>

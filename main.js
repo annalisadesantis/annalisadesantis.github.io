@@ -1,22 +1,14 @@
-var app = new Vue({
-    el: "#root",
-    data: {
-        active: false,
-        headerBox: true,
-    },
-    methods: {
-        togglemenu(){
-            if(this.active == false){
-                this.active = true;
-            }else{
-                this.active = false;
-            }
 
-            if(this.headerBox == true){
-                this.headerBox = false;
-            }else{
-                this.headerBox = true;
-            }
-        }
-    }
+// Hamburger-menu appare al click
+$(".fa-bars").click(function(){
+    $(".hamburger-menu").slideToggle("slow");
+});
+
+// Hamburger-menu scompare al click
+$(".close").click(function(){
+    $(".hamburger-menu").slideToggle();
+});
+
+$(".link").click(function(){
+    $(".hamburger-menu").slideToggle();
 });

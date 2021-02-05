@@ -7,7 +7,7 @@
         <!-- Responsive -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Favicon -->
-
+        <link rel="icon" href="img/logo.png" type="image/png"/>
         <!-- Font awesome icon -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
         <!-- Google Fonts -->
@@ -22,14 +22,61 @@
     </head>
     <body>
         <div id="root">
+            <!-- HEADER -->
             <header>
-
+                <div class="header-box" v-if="headerBox">
+                    <div class="header-left">
+                        <h2 class="text-uppercase">
+                            Portfolio
+                        </h2>
+                    </div>
+                    <div class="header-right">
+                        <div class="menu">
+                            <ul>
+                                <li>
+                                    <a class="text-uppercase" href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a class="text-uppercase" href="#about">About me</a>
+                                </li>
+                                <li>
+                                    <a class="text-uppercase" href="#projects">My Projects</a>
+                                </li>
+                                <li>
+                                    <a class="text-uppercase" href="#contact">Contact me</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="#" @click="togglemenu()" class="toggle">
+                            <i class="fas fa-bars"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hamburger-menu" v-if="active">
+                    <ul>
+                        <li>
+                            <a class="text-uppercase" href="#">Home</a>
+                        </li>
+                        <li>
+                            <a class="text-uppercase" href="#about">About me</a>
+                        </li>
+                        <li>
+                            <a class="text-uppercase" href="#projects">My Projects</a>
+                        </li>
+                        <li>
+                            <a class="text-uppercase" href="#contact">Contact me</a>
+                        </li>
+                    </ul>
+                    <a href="#" class="close" @click="togglemenu()">
+                        <i class="fas fa-times"></i>
+                    </a>
+                </div>
             </header>
             <main>
 
             </main>
             <footer>
-                <div class="ciao">
+                <!-- <div class="ciao">
                     <p>
                         &lt;name&gt;
                     </p>
@@ -39,7 +86,7 @@
                     <p>
                         &lt;/name&gt;
                     </p>
-                </div>
+                </div> -->
             </footer>
         </div>
         <!-- JAVASCRIPT -->

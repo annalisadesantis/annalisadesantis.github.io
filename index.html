@@ -20,55 +20,57 @@
         <!-- JQUERY -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
-    <body>
+    <body id="body">
         <!-- HEADER -->
         <header class="header-fixed">
-            <div class="header-box ">
-                <div class="header-left">
-                    <h2 class="text-uppercase">
-                        Portfolio
-                    </h2>
-                </div>
-                <div class="header-right">
-                    <div class="menu">
-                        <ul>
-                            <li>
-                                <a class="text-uppercase" href="#home">Home</a>
-                            </li>
-                            <li>
-                                <a class="text-uppercase" href="#about">About me</a>
-                            </li>
-                            <li>
-                                <a class="text-uppercase" href="#projects">My Projects</a>
-                            </li>
-                            <li>
-                                <a class="text-uppercase" href="#contact">Contact me</a>
-                            </li>
-                        </ul>
+            <div class="container">
+                <div class="header-box ">
+                    <div class="header-left">
+                        <h2 class="text-uppercase">
+                            Portfolio
+                        </h2>
                     </div>
-                    <a href="#" class="toggle">
-                        <i class="fas fa-bars"></i>
+                    <div class="header-right">
+                        <div class="menu">
+                            <ul>
+                                <li>
+                                    <a class="text-uppercase" href="#home">Home</a>
+                                </li>
+                                <li>
+                                    <a class="text-uppercase" href="#about">About me</a>
+                                </li>
+                                <li>
+                                    <a class="text-uppercase" href="#projects">My Projects</a>
+                                </li>
+                                <li>
+                                    <a class="text-uppercase" href="#contact">Contact me</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="#" class="toggle">
+                            <i class="fas fa-bars"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hamburger-menu">
+                    <ul>
+                        <li>
+                            <a class="text-uppercase link" href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a class="text-uppercase link" href="#about">About me</a>
+                        </li>
+                        <li>
+                            <a class="text-uppercase link" href="#projects">My Projects</a>
+                        </li>
+                        <li>
+                            <a class="text-uppercase link" href="#contact">Contact me</a>
+                        </li>
+                    </ul>
+                    <a href="#" class="times">
+                        <i class="fas fa-times"></i>
                     </a>
                 </div>
-            </div>
-            <div class="hamburger-menu">
-                <ul>
-                    <li>
-                        <a class="text-uppercase link" href="#home">Home</a>
-                    </li>
-                    <li>
-                        <a class="text-uppercase link" href="#about">About me</a>
-                    </li>
-                    <li>
-                        <a class="text-uppercase link" href="#projects">My Projects</a>
-                    </li>
-                    <li>
-                        <a class="text-uppercase link" href="#contact">Contact me</a>
-                    </li>
-                </ul>
-                <a href="#" class="close">
-                    <i class="fas fa-times"></i>
-                </a>
             </div>
         </header>
         <main>
@@ -76,30 +78,28 @@
             <section id="home">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xs-12">
-                            <div class="box-name">
-                                <div class="name">
-                                    <p>
-                                        &lt;name&gt;
-                                    </p>
-                                    <h1>
-                                        Annalisa de Santis
-                                    </h1>
-                                    <p>
-                                        &lt;/name&gt;
-                                    </p>
-                                </div>
-                                <div class="job">
-                                    <p>
-                                        &lt;job&gt;
-                                    </p>
-                                    <h1>
-                                        Jr Full Stack Web Developer
-                                    </h1>
-                                    <p>
-                                        &lt;/job&gt;
-                                    </p>
-                                </div>
+                        <div class="col-xs-12 box-name">
+                            <div class="name">
+                                <p>
+                                    &lt;name&gt;
+                                </p>
+                                <h4>
+                                    Annalisa De Santis
+                                </h4>
+                                <p>
+                                    &lt;/name&gt;
+                                </p>
+                            </div>
+                            <div class="job">
+                                <p>
+                                    &lt;job&gt;
+                                </p>
+                                <h4>
+                                    Jr Full Stack Web Developer
+                                </h4>
+                                <p>
+                                    &lt;/job&gt;
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -111,11 +111,47 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="box-info">
+                                <h2>
+                                    About me
+                                </h2>
                                 <p>
                                     &lt;me&gt;
                                 </p>
                                 <span>
-                                    La creatività è il tratto che più mi caratterizza e il mondo della programmazione rispecchia perfettamente questa caratteristica. Programmare sprigiona la mia passione e il mio entusiasmo, rendendomi affamata ad imparare sempre di più.
+                                    Mi chiamo Annalisa De Santis e sono una Full Stack Web Developer. La creatività è il tratto che più mi caratterizza e il mondo della programmazione rispecchia perfettamente questa caratteristica. Programmare sprigiona la mia passione e il mio entusiasmo, rendendomi affamata ad imparare sempre di più.
+                                    Il mio backgroud tecnico comprende i seguenti linguaggi:
+                                        <ul>
+                                            <li>
+                                                Linguaggi:
+                                                <span>
+                                                    HTML5, CSS3, JavaScript, MySQL, PHP
+                                                </span>
+                                            </li>
+                                            <li>
+                                                Framework CSS:
+                                                <span>
+                                                    Bootstrap 3/4, SASS
+                                                </span>
+                                            </li>
+                                            <li>
+                                                Librerie Javascript:
+                                                <span>
+                                                    jQuery, Moment.js, Handlebars, Vue.js
+                                                </span>
+                                            </li>
+                                            <li>
+                                                Framework PHP:
+                                                <span>
+                                                    Laravel 7
+                                                </span>
+                                            </li>
+                                            <li>
+                                                Database:
+                                                <span>
+                                                    MySQL
+                                                </span>
+                                            </li>
+                                        </ul>
                                 </span>
                                 <p>
                                     &lt;/me&gt;
@@ -127,53 +163,95 @@
             </section>
             <!-- PROJECTS -->
             <section id="projects">
-
+                <div class="container">
+                    <h2>
+                        My Projects
+                    </h2>
+                    <p>
+                        Ecco qui alcuni dei progetti da me realizzati!
+                    </p>
+                    <div class="row text-center">
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                            <a class="portfolio-card text-center">
+                                Bootstrap
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                            <a class="portfolio-card">
+                                Whatsapp
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                            <a class="portfolio-card">
+                                Netflix
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                            <a class="portfolio-card">
+                                HubSpot
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                            <a class="portfolio-card">
+                                DigitalOcean
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                            <a class="portfolio-card">
+                                Spotify
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </section>
         </main>
         <!-- FOOTER -->
         <footer id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="box-contact">
-                            <p>
-                                &lt;contact&gt;
-                            </p>
-                            <h3>
-                                <i class="fas fa-phone-alt"></i>
-                                +39 3342311071
-                            </h3>
-                            <h3>
-                                <i class="far fa-envelope"></i>
-                                annalisadesantis770@gmail.com
-                            </h3>
-                            <p>
-                                &lt;/contact&gt;
-                            </p>
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6">
+                            <div class="box-contact">
+                                <p>
+                                    &lt;contact&gt;
+                                </p>
+                                <h3 class="email">
+                                    <i class="far fa-envelope"></i>
+                                    annalisadesantis770@gmail.com
+                                </h3>
+                                <p>
+                                    &lt;/contact&gt;
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                            <div class="box-contact">
+                                <p>
+                                    &lt;follow-me&gt;
+                                </p>
+                                <h3>
+                                    <a href="https://www.linkedin.com/in/annalisa-de-santis-354a7b205/">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                    <a href="https://github.com/annalisadesantis">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </h3>
+                                <p>
+                                    &lt;/follow-me&gt;
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="box-contact">
-                            <p>
-                                &lt;follow-me&gt;
-                            </p>
-                            <h3>
-                                <i class="fab fa-linkedin"></i>
-                                <a href="#">
-                                    https://www.linkedin.com/in/annalisa-de-santis-354a7b205/
-                                </a>
-                            </h3>
-                            <h3>
-                                <i class="fab fa-github"></i>
-                                <a href="#">
-                                    https://github.com/annalisadesantis
-                                </a>
-                            </h3>
-                            <p>
-                                &lt;/follow-me&gt;
-                            </p>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 text-center">
+                            <span>
+                                Copyrights 2021 @My Porfolio by Annalisa De Santis
+                            </span>
                         </div>
                     </div>
                 </div>

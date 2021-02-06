@@ -4,9 +4,11 @@
     box-sizing: border-box;
 }
 
-body{
+#body{
     font-family: 'Quicksand', sans-serif;
+    color: white;
 }
+
 
 /* HEADER */
 
@@ -14,9 +16,9 @@ header{
     padding: 10px;
     width: 100%;
     height: 80px;
-    background: #ffffff;
-    /* border-bottom: 1px solid #efefef; */
+    background-color: #ff6971;
     position: relative;
+    border: 0;
 }
 
 .header-fixed {
@@ -26,22 +28,22 @@ header{
     width: 100%;
     height: 80px;
     z-index: 9999;
+    border: 0;
 }
 
 .header-box{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 30px;
 }
 
 .header-left h2{
-    color: #000000;
-    margin: 10px 0 10px 0;
+    color: #b8860b;
+    margin-top: 10px;
 }
 
 .header-right i{
-    color: #000000;
+    color: #b8860b;
     font-size: 20px;
     padding-top: 3px;
 }
@@ -63,8 +65,8 @@ header{
     height: 100%;
     min-width: 100vw;
     min-height: 100vh;
-    background: #000000;
     display: none;
+    background-color: #ff6971;
 }
 
 .hamburger-menu ul {
@@ -81,58 +83,54 @@ header{
 }
 
 .hamburger-menu ul li a{
-    color: #ffffff;
+    color: #b8860b;
     text-decoration: none;
     font-size: 20px;
+    font-weight: bold;
 }
 
-.close{
+.times{
     display: block;
     position: absolute;
     right: 50px;
     top: 35px;
-    color: #ffffff;
+    color: #b8860b;
     text-decoration: none;
+    opacity: 9999;
 }
 
 .hamburger-menu i{
-    color: #ffffff;
+    color: #b8860b;
     font-size: 25px;
 }
-
-
 
 /* SECTION HOME */
 
 #home{
-    background-image: url('img/sfondo-home.jpg');
+    background-image: url('img/sfondo-home.png');
     background-size: cover;
-    min-height: 100vh;
     margin-top: 80px;
+    width: 100%;
 }
 
-.box-name {
+.box-name{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 50px;
-}
-
-.name{
-    margin-bottom: 20px;
-}
-
-.box-name h1{
-    color: #ffffff;
-    font-size: 33px;
-    padding-left: 25px;
+    padding: 114px 10px 114px 0;
 }
 
 .box-name p{
-    color: #ff69b4;
+    color: #b8860b;
     font-weight: bold;
     font-size: 25px;
+}
+
+.box-name h4{
+    color: white;
+    font-size: 33px;
+    margin-left: 20px;
 }
 
 
@@ -150,30 +148,92 @@ header{
     align-items: flex-start;
 }
 
+.box-info h2{
+    color: #ffc603;
+    font-size: 35px;
+}
+
 .box-info span{
     color: #ffffff;
-    font-size: 25px;
+    font-size: 15px;
     margin-left: 25px;
 }
 
 .box-info p{
-    color: #ff69b4;
+    color: #ff1493;
     font-weight: bold;
-    font-size: 25px
+    font-size: 20px
+}
+
+.box-info ul{
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.box-info ul span{
+    color: #ffffff;
+    font-weight: bold;
 }
 
 /* SECTION PROJECTS */
 
+
 #projects{
-    background-color: pink;
-    height: 800px;
+    background-color: #ffc603;
+    padding: 80px 20px;
 }
+
+#projects h2{
+    color: #ff6971;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+#projects p{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.portfolio-card{
+    width: 250px;
+    height: 250px;
+    background-image: url('img/sfondo3.jpg');
+    margin: 8px;
+    border: 4px solid #b8860b;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff6971;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.portfolio-card:hover{
+    background-image: none;
+    color: #b8860b;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #ff6971;
+    border-radius: 20px;
+}
+
 
 
 /* FOOTER */
 
-footer{
-    background-color: orange;
+footer .footer-top{
+    background-image: url('img/footer.jpg');
+    background-size: cover;
+    background-position: left;
+    padding: 20px;
+    height: 500px;
 }
 
 .box-contact {
@@ -192,12 +252,16 @@ footer{
 
 .box-contact i{
     color: #ffffff;
-    font-size: 25px;
+    font-size: 45px;
     margin-right: 10px;
 }
 
+.box-contact i:hover{
+    color: #ff1493;
+}
+
 .box-contact p{
-    color: #ff69b4;
+    color: #ff1493;
     font-weight: bold;
     font-size: 25px;
     margin: 0;
@@ -205,11 +269,23 @@ footer{
 
 .box-contact a{
     color: #ffffff;
-    font-size: 15px;
+    font-size: 25px;
+    display: inline-block;
 }
 
+footer .footer-bottom{
+    background-color: #ff6971;
+    padding: 20px 0;
+}
+
+footer .footer-bottom span{
+    color: #b8860b;
+    font-weight: bold;
+}
 
 @media (min-width: 768px){
+
+    /* HEADER */
 
     .toggle{
         display: none;
@@ -232,12 +308,43 @@ footer{
     }
 
     .menu ul li a{
-        color: #000000;
+        color: #b8860b;
         padding: 0 15px;
         cursor: pointer;
         text-decoration: none;
         font-weight: bold;
-        font-size: 14px;
+        font-size: 16px;
+    }
+
+    /* ABOUT */
+
+    .box-info h2{
+        font-size: 45px;
+    }
+
+    .box-info span{
+        font-size: 25px;
+        margin-left: 25px;
+    }
+
+    .box-info p{
+        font-weight: bold;
+        font-size: 25px
+    }
+
+    /* PROJECT */
+
+    #projects h2{
+        color: #ff6971;
+        font-size: 45px;
+    }
+
+    /* FOOTER */
+
+    .box-contact .email{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 

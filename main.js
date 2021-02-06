@@ -6,11 +6,12 @@ $(document).ready(function() {
     });
 
     // Hamburger-menu scompare al click
-    $(".close").click(function(){
+    $(".times").click(function(){
         $(".hamburger-menu").slideToggle();
     });
 
     $(".link").click(function(){
         $(".hamburger-menu").slideToggle();
     });
+
 });

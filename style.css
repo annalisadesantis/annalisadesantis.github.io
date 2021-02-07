@@ -115,6 +115,7 @@ header{
 
 #home{
     background-image: url('img/sfondo-home.png');
+    background-color: #ffc603;
     background-size: cover;
     margin-top: 80px;
     width: 100%;
@@ -370,6 +371,5 @@ footer .footer-bottom span{
         justify-content: center;
         align-items: center;
     }
-
 
 }

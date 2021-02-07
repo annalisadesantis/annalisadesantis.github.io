@@ -208,6 +208,7 @@ header{
     color: #ff6971;
     font-size: 35px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 #projects p{
@@ -215,6 +216,7 @@ header{
     font-size: 25px;
     margin-bottom: 20px;
     font-weight: bold;
+    text-align: center;
 }
 
 .portfolio-card{
@@ -379,6 +381,11 @@ footer .footer-bottom span{
     #projects h2{
         color: #ff6971;
         font-size: 45px;
+        text-align: left;
+    }
+
+    #projects p{
+        text-align: left;
     }
 
     /* FOOTER */

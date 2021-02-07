@@ -35,6 +35,13 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    animation: header 1s linear 1 forwards;
+}
+
+@keyframes header {
+  from {left: -100px;}
+  to {left: 0px;}
 }
 
 .header-left h2{

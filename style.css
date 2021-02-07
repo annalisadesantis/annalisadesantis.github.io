@@ -126,7 +126,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 114px 10px 114px 15px;
+    padding: 114px 10px 114px 20px;
     position: relative;
     animation: mymove 1s linear 1 forwards;
 }
@@ -339,6 +339,12 @@ footer .footer-bottom span{
         text-decoration: none;
         font-weight: bold;
         font-size: 16px;
+    }
+
+    /* HOME */
+
+    .box-name{
+        padding: 114px 10px 114px 15px;
     }
 
     /* ABOUT */

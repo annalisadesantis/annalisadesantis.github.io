@@ -133,7 +133,7 @@ header{
 
 @keyframes mymove {
   from {left: -100px;}
-  to {left: 0px;}
+  to {left: 20px;}
 }
 
 .box-name p{
@@ -344,7 +344,18 @@ footer .footer-bottom span{
     /* HOME */
 
     .box-name{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
         padding: 114px 10px 114px 15px;
+        position: relative;
+        animation: mymove 1s linear 1 forwards;
+    }
+
+    @keyframes mymove {
+      from {left: -100px;}
+      to {left: 0px;}
     }
 
     /* ABOUT */

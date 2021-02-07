@@ -133,7 +133,7 @@ header{
 
 @keyframes mymove {
   from {left: -100px;}
-  to {left: 20px;}
+  to {left: 0px;}
 }
 
 .box-name p{

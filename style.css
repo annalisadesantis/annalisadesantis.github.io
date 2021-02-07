@@ -59,7 +59,7 @@ header{
     display: none;
 }
 
-.toggle{
+.toggle a{
     display: block;
     margin-right: 15px;
 }

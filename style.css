@@ -122,15 +122,16 @@ header{
 }
 
 .box-name p{
-    color: #b8860b;
+    color: white;
     font-weight: bold;
     font-size: 25px;
 }
 
 .box-name h4{
-    color: white;
+    color: #ff6971;
     font-size: 33px;
     margin-left: 20px;
+    font-weight: bold;
 }
 
 
@@ -168,6 +169,11 @@ header{
 .box-info ul{
     margin-left: 35px;
     margin-top: 10px;
+}
+
+.box-info ul li:first-child{
+    color: #ffffff;
+    font-weight: bold;
 }
 
 .box-info ul span{
@@ -282,6 +288,10 @@ footer .footer-bottom span{
     color: #b8860b;
     font-weight: bold;
 }
+
+
+
+/* MEDIA QUERY DESKTOP */
 
 @media (min-width: 768px){
 

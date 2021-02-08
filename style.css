@@ -220,7 +220,7 @@ header{
     text-align: center;
 }
 
-.portfolio-card{
+.portfolio-card, .portfolio-card:active, .portfolio-card:visited{
     width: 250px;
     height: 250px;
     background-image: url('img/sfondo3.jpg');
@@ -235,6 +235,11 @@ header{
     font-weight: bold;
     text-decoration: none;
     cursor: pointer;
+}
+
+a:focus {
+    color: #ff6971;
+    text-decoration: none;
 }
 
 .portfolio-card:hover{
@@ -303,7 +308,7 @@ footer .footer-bottom{
 }
 
 footer .footer-bottom span{
-    color: #b8860b;
+    color: white;
     font-weight: bold;
 }
 

@@ -275,6 +275,7 @@ footer .footer-top{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin-bottom: 40px;
 }
 
 .box-contact h3{
@@ -401,6 +402,10 @@ footer .footer-bottom span{
     }
 
     /* FOOTER */
+
+    .box-contact {
+        margin-bottom: 0px;
+    }
 
     .box-contact .email{
         display: flex;

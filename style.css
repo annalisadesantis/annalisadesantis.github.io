@@ -155,7 +155,6 @@ header{
     font-weight: bold;
 }
 
-
 /* SECTION ABOUT */
 
 #about{
@@ -318,9 +317,23 @@ footer .footer-bottom span{
     font-weight: bold;
 }
 
+/* PICTURE */
 
+/* #picture{
+    display: inline-block;
+    background-image: url('img/sfondo3.jpg');
+    background-size: contain;
+    height: 500px;
+} */
 
 /* MEDIA QUERY DESKTOP */
+
+/* @media (min-width: 562px){
+
+    #picture{
+        display: none;
+    }
+} */
 
 @media (min-width: 768px){
 

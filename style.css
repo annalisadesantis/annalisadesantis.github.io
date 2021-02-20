@@ -45,12 +45,14 @@ header{
 }
 
 .header-left h2{
-    color: #b8860b;
+    /* color: #b8860b; */
+    color: white;
     margin-top: 10px;
 }
 
 .header-right i{
-    color: #b8860b;
+    /* color: #b8860b; */
+    color: white;
     font-size: 20px;
     padding-top: 3px;
 }
@@ -91,7 +93,8 @@ header{
 }
 
 .hamburger-menu ul li a{
-    color: #b8860b;
+    /* color: #b8860b; */
+    color: white;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
@@ -102,13 +105,15 @@ header{
     position: absolute;
     right: 50px;
     top: 35px;
-    color: #b8860b;
+    /* color: #b8860b; */
+    color: white;
     text-decoration: none;
     opacity: 9999;
 }
 
 .hamburger-menu i{
-    color: #b8860b;
+    /* color: #b8860b; */
+    color: white;
     font-size: 25px;
 }
 
@@ -341,7 +346,8 @@ footer .footer-bottom span{
     }
 
     .menu ul li a{
-        color: #b8860b;
+        /* color: #b8860b; */
+        color: white;
         padding: 0 15px;
         cursor: pointer;
         text-decoration: none;
